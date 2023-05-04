@@ -26,7 +26,7 @@ const BookShow = () => {
         
     });
 
-    console.log(formData)
+
    async function makePayment () {
         const prevData = await JSON.parse(localStorage.getItem("shows"));
 
